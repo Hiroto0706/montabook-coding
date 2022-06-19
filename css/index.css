@@ -5,9 +5,13 @@ html {
   background-color: rgb(238, 255, 249);
 }
 
+img {
+  width: 100%;
+}
+
 #container {
-  width: 1000px;
-  margin: auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 
@@ -35,17 +39,19 @@ header h1 {
  ------------------------------- */
 #index {
   background-color: white;
+  padding: 30px 0;
+  margin-bottom: 60px;
+}
+
+.index_content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 0 15px 0;
 }
 
 #index h2 {
   font-size: 1.2rem;
   margin: 0;
-}
-
-.index_content {
-  width: 600px;
-  margin: auto;
-  padding: 30px 0 15px 0;
 }
 
 ol {
@@ -72,8 +78,8 @@ ol li:last-child {
 }
 
 .inner {
-  width: 600px;
-  margin: auto;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .detail_contents {
@@ -130,6 +136,10 @@ ol li:last-child {
     padding: 0 40px;
   }
 
+  .detail_title {
+    padding: 0 40px;
+  }
+
   .detail_img{
     width: 100%;
   }
@@ -154,5 +164,9 @@ ol li:last-child {
 
   .detail_text dd {
     width: calc(70% - 40px);
+  }
+
+  #footer p {
+    padding: 0 40px;
   }
  }
