@@ -119,3 +119,40 @@ ol li:last-child {
   font-size: 0.6rem;
   padding: 15px 0 ;
 }
+
+/*--------------------------
+ レスポンシブデザイン
+ ---------------------------*/
+
+ @media screen and (max-width:1024px) {
+  .detail_contents {
+    flex-direction: column;
+    padding: 0 40px;
+  }
+
+  .detail_img{
+    width: 100%;
+  }
+  
+  .detail_content_img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .detail_contents .detail_text{
+    width: 100%;
+  }
+
+  .detail_text dl {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .detail_text dt {
+    width: 30%;
+  }
+
+  .detail_text dd {
+    width: calc(70% - 40px);
+  }
+ }
