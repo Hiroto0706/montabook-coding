@@ -68,6 +68,7 @@ ol li:last-child {
  ------------------------------- */
 #detail {
   padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .inner {
@@ -80,7 +81,7 @@ ol li:last-child {
 }
 
 .detail_img{
-  width: 60%;
+  width: 55%;
 }
 
 .detail_content_img {
@@ -88,7 +89,16 @@ ol li:last-child {
 }
 
 .detail_contents .detail_text{
-  width: 40%;
+  width: 45%;
+}
+
+.detail_text dl {
+  font-size: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding:16px 0;
+  border-top: solid 1px #dedede;
+  border-bottom: solid 1px #dedede;
 }
 
 .detail_text h3 {
@@ -97,4 +107,15 @@ ol li:last-child {
 
 .detail_text p {
   font-size: 0.9rem;
+  margin: 8% 0;
+}
+
+.detail_text a {
+  font-size: 0.9rem;
+  color: black;
+}
+
+#footer {
+  font-size: 0.6rem;
+  padding: 15px 0 ;
 }
